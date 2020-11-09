@@ -7,7 +7,8 @@ image_config: &image_config
   IMAGE_NAME: ci-ruby
 
   IMAGE_TAG: 0.1
-
+  DOCKER_USERNAME: kajabiprodeng
+  DOCKER_PASSWORD: 0mY904eNXoXS
   # NOTE: if you're modifying this config.yml file manually
   # rather than using the included setup script,
   # make sure you also add the values of your IMAGE_NAME & IMAGE_TAG variables
